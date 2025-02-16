@@ -14,7 +14,8 @@ spring:
         dialect: org.hibernate.dialect.PostgreSQLDialect
     hibernate:
       ddl-auto: update
-
+  boot:
+    message: "Hello, Department Service"
 eureka:
   instance:
     client:
