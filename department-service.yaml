@@ -1,0 +1,22 @@
+
+
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/department_db
+    username: postgres
+    password: trankimhieu123
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+
+eureka:
+  instance:
+    client:
+      server-url:
+        defaultZone: http://localhost:8761/eureka/
