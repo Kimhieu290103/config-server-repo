@@ -15,7 +15,7 @@ spring:
     hibernate:
       ddl-auto: update
   boot:
-    message: "Hello, Employee Service Update Spring Bus"
+    message: "Hello, Employee Service Update Spring Bus 1"
 eureka:
   instance:
     client:
